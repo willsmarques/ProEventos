@@ -7,13 +7,13 @@ namespace ProEvento.API.Models
 {
     public class Evento
     {
-        public int eventoId { get; set; }
-        public string local { get; set; }
-        public string dataEvento { get; set; }
-        public string tema { get; set; }
-        public int qtdPessoa { get; set; }
-        public string lote { get; set; }
-        public string imagemUrl { get; set; }
+        public int EventoId { get; set; }
+        public string Local { get; set; }
+        public string DataEvento { get; set; }
+        public string Tema { get; set; }
+        public int QtdPessoa { get; set; }
+        public string Lote { get; set; }
+        public string ImagemUrl { get; set; }
         
     }
 }
